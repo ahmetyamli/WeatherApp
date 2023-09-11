@@ -7,15 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E30071082A6129CD001916E3 /* Funcs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30071072A6129CD001916E3 /* Funcs.swift */; };
+		E30071392A617DCD001916E3 /* SehirTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30071372A617DCD001916E3 /* SehirTableViewCell.swift */; };
+		E300713A2A617DCD001916E3 /* SehirTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E30071382A617DCD001916E3 /* SehirTableViewCell.xib */; };
+		E30997692A53F1F70095457F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30997682A53F1F70095457F /* Model.swift */; };
+		E30997722A54530D0095457F /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30997712A54530D0095457F /* mainViewController.swift */; };
+		E30997762A5453670095457F /* haftalikViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30997752A5453670095457F /* haftalikViewController.swift */; };
+		E309977D2A55C81C0095457F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E309977B2A55C81C0095457F /* Model.xcdatamodeld */; };
+		E31131AE2A56AF1000C77329 /* SaveLocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31131AD2A56AF1000C77329 /* SaveLocationsViewController.swift */; };
+		E31131B12A56B26600C77329 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31131B02A56B26600C77329 /* InformationViewController.swift */; };
+		E34331E52A5BDD3B00D370F7 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34331E42A5BDD3B00D370F7 /* CollectionViewCell.swift */; };
 		E3C2974C2A53150E00947CE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C2974B2A53150E00947CE6 /* AppDelegate.swift */; };
 		E3C2974E2A53150E00947CE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C2974D2A53150E00947CE6 /* SceneDelegate.swift */; };
 		E3C297502A53150E00947CE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C2974F2A53150E00947CE6 /* ViewController.swift */; };
 		E3C297532A53150E00947CE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3C297512A53150E00947CE6 /* Main.storyboard */; };
 		E3C297552A53150F00947CE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3C297542A53150F00947CE6 /* Assets.xcassets */; };
 		E3C297582A53150F00947CE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3C297562A53150F00947CE6 /* LaunchScreen.storyboard */; };
+		E3CEEEB02A5E7DC3008105E4 /* CollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CEEEAF2A5E7DC3008105E4 /* CollectionReusableView.swift */; };
+		E3CF819C2A5EBC1C0069E712 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CF819B2A5EBC1C0069E712 /* TableViewCell.swift */; };
+		E3CF81A02A5EBE370069E712 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CF819F2A5EBE370069E712 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E30071072A6129CD001916E3 /* Funcs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funcs.swift; sourceTree = "<group>"; };
+		E30071372A617DCD001916E3 /* SehirTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SehirTableViewCell.swift; sourceTree = "<group>"; };
+		E30071382A617DCD001916E3 /* SehirTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SehirTableViewCell.xib; sourceTree = "<group>"; };
+		E30997682A53F1F70095457F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		E30997712A54530D0095457F /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		E30997752A5453670095457F /* haftalikViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = haftalikViewController.swift; sourceTree = "<group>"; };
+		E309977C2A55C81C0095457F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		E31131AD2A56AF1000C77329 /* SaveLocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveLocationsViewController.swift; sourceTree = "<group>"; };
+		E31131B02A56B26600C77329 /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		E34331E42A5BDD3B00D370F7 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		E3C297482A53150E00947CE6 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3C2974B2A53150E00947CE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3C2974D2A53150E00947CE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +47,9 @@
 		E3C297542A53150F00947CE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3C297572A53150F00947CE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3C297592A53150F00947CE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3CEEEAF2A5E7DC3008105E4 /* CollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionReusableView.swift; sourceTree = "<group>"; };
+		E3CF819B2A5EBC1C0069E712 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E3CF819F2A5EBE370069E712 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +63,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E30071032A612983001916E3 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				E30071072A6129CD001916E3 /* Funcs.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		E30997652A53F1BA0095457F /* data */ = {
+			isa = PBXGroup;
+			children = (
+				E30997682A53F1F70095457F /* Model.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		E309976A2A5451280095457F /* GunlukHava */ = {
+			isa = PBXGroup;
+			children = (
+				E3C2974F2A53150E00947CE6 /* ViewController.swift */,
+			);
+			path = GunlukHava;
+			sourceTree = "<group>";
+		};
+		E309976B2A54517A0095457F /* mainViewConntroller */ = {
+			isa = PBXGroup;
+			children = (
+				E30997712A54530D0095457F /* mainViewController.swift */,
+			);
+			path = mainViewConntroller;
+			sourceTree = "<group>";
+		};
+		E309976C2A5451910095457F /* ShowLocationsList */ = {
+			isa = PBXGroup;
+			children = (
+				E30997752A5453670095457F /* haftalikViewController.swift */,
+				E30071372A617DCD001916E3 /* SehirTableViewCell.swift */,
+				E30071382A617DCD001916E3 /* SehirTableViewCell.xib */,
+			);
+			path = ShowLocationsList;
+			sourceTree = "<group>";
+		};
+		E309977E2A56A76F0095457F /* MapKit */ = {
+			isa = PBXGroup;
+			children = (
+				E31131AD2A56AF1000C77329 /* SaveLocationsViewController.swift */,
+			);
+			path = MapKit;
+			sourceTree = "<group>";
+		};
+		E31131AF2A56B23E00C77329 /* InformationVc */ = {
+			isa = PBXGroup;
+			children = (
+				E31131B02A56B26600C77329 /* InformationViewController.swift */,
+				E34331E42A5BDD3B00D370F7 /* CollectionViewCell.swift */,
+				E3CEEEAF2A5E7DC3008105E4 /* CollectionReusableView.swift */,
+				E3CF819B2A5EBC1C0069E712 /* TableViewCell.swift */,
+				E3CF819F2A5EBE370069E712 /* TableViewController.swift */,
+			);
+			path = InformationVc;
+			sourceTree = "<group>";
+		};
 		E3C2973F2A53150E00947CE6 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +144,20 @@
 		E3C2974A2A53150E00947CE6 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
-				E3C2974B2A53150E00947CE6 /* AppDelegate.swift */,
-				E3C2974D2A53150E00947CE6 /* SceneDelegate.swift */,
-				E3C2974F2A53150E00947CE6 /* ViewController.swift */,
+				E30071032A612983001916E3 /* Functions */,
+				E31131AF2A56B23E00C77329 /* InformationVc */,
+				E309977E2A56A76F0095457F /* MapKit */,
+				E309976C2A5451910095457F /* ShowLocationsList */,
+				E309976B2A54517A0095457F /* mainViewConntroller */,
+				E309976A2A5451280095457F /* GunlukHava */,
+				E30997652A53F1BA0095457F /* data */,
 				E3C297512A53150E00947CE6 /* Main.storyboard */,
-				E3C297542A53150F00947CE6 /* Assets.xcassets */,
-				E3C297562A53150F00947CE6 /* LaunchScreen.storyboard */,
+				E3C2974D2A53150E00947CE6 /* SceneDelegate.swift */,
+				E3C2974B2A53150E00947CE6 /* AppDelegate.swift */,
 				E3C297592A53150F00947CE6 /* Info.plist */,
+				E3C297562A53150F00947CE6 /* LaunchScreen.storyboard */,
+				E3C297542A53150F00947CE6 /* Assets.xcassets */,
+				E309977B2A55C81C0095457F /* Model.xcdatamodeld */,
 			);
 			path = WeatherApp;
 			sourceTree = "<group>";
@@ -126,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3C297582A53150F00947CE6 /* LaunchScreen.storyboard in Resources */,
+				E300713A2A617DCD001916E3 /* SehirTableViewCell.xib in Resources */,
 				E3C297552A53150F00947CE6 /* Assets.xcassets in Resources */,
 				E3C297532A53150E00947CE6 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +234,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E31131B12A56B26600C77329 /* InformationViewController.swift in Sources */,
+				E3CEEEB02A5E7DC3008105E4 /* CollectionReusableView.swift in Sources */,
+				E3CF81A02A5EBE370069E712 /* TableViewController.swift in Sources */,
+				E30071082A6129CD001916E3 /* Funcs.swift in Sources */,
+				E34331E52A5BDD3B00D370F7 /* CollectionViewCell.swift in Sources */,
+				E30997722A54530D0095457F /* mainViewController.swift in Sources */,
+				E30071392A617DCD001916E3 /* SehirTableViewCell.swift in Sources */,
 				E3C297502A53150E00947CE6 /* ViewController.swift in Sources */,
+				E31131AE2A56AF1000C77329 /* SaveLocationsViewController.swift in Sources */,
+				E309977D2A55C81C0095457F /* Model.xcdatamodeld in Sources */,
 				E3C2974C2A53150E00947CE6 /* AppDelegate.swift in Sources */,
 				E3C2974E2A53150E00947CE6 /* SceneDelegate.swift in Sources */,
+				E3CF819C2A5EBC1C0069E712 /* TableViewCell.swift in Sources */,
+				E30997762A5453670095457F /* haftalikViewController.swift in Sources */,
+				E30997692A53F1F70095457F /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +466,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E309977B2A55C81C0095457F /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E309977C2A55C81C0095457F /* Model.xcdatamodel */,
+			);
+			currentVersion = E309977C2A55C81C0095457F /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E3C297402A53150E00947CE6 /* Project object */;
 }
